@@ -3,6 +3,11 @@
     --med: #cef0b9;
     --dark:#64a36f;
     --contrast: #ffe121;
+    --white: rgb(248, 248, 241);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -36,7 +41,24 @@ body {
     font-weight: bold;
 }
 
- a {
+#header-leaf {
+    width:40px;
+}
+
+/* sidebar */
+
+.side-card { 
+    background-color: var(--white);
+    /* margin: 20px 0; */
+    padding: 10px;
+    border: 5px solid var(--dark);
+}
+
+/* h3 {
+    color: var(--dark);
+} */
+
+a {
     text-decoration: none;
     color: black;
 }
@@ -54,10 +76,19 @@ a:hover {
     color: black;
 }
 
-#header-leaf {
-    width:40px;
+.donor-logo {
+    width:150px;
+    border-radius: 5px;
+    margin:10px;
 }
 
+#vol-list li {
+    list-style: none;
+    text-align:center;
+    margin: 10px;
+}
+
+/* carousel */
 #pic-1{
     height: 200px;
     background-image: url(./assets/images/Asparagus.png);
@@ -120,4 +151,10 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* main */
+
+.first-words {
+    font-size: 2rem;
 }

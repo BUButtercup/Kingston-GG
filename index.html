@@ -21,7 +21,8 @@
             <div class="container-fluid">
                 <a class="navbar-brand title d-flex align-items-center" href="#" id="brand-icon">
                     <img src="./assets/images/leaf.png" id="header-leaf">
-                    <h1>The Giving Garden</h1></a>
+                    <h1>The Giving Garden</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -54,68 +55,93 @@
         </nav>
 
         <!-- ***** carousel ***** -->
-        <div class="container-fluid">
-            <div class="row"></div>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active d-flex">
-                    <!-- <div class="card" style="width: 18rem;">
+        <div class="container-fluid shadow mb-4">
+            <div class="row">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active d-flex">
+                            <!-- <div class="card" style="width: 18rem;">
                         <img src="./assets/images/Asparagus.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div> -->
-                    <!-- <img src="./assets/images/Asparagus.png" class="d-block w-50" alt="..."> -->
-                   <div class="col-3" id="pic-1"></div>
-                   <div class="col-3" id="pic-2"></div>
-                   <div class="col-3" id="pic-3"></div>
-                   <div class="col-3" id="pic-4"></div>
+                            <!-- <img src="./assets/images/Asparagus.png" class="d-block w-50" alt="..."> -->
+                            <div class="col-3" id="pic-1"></div>
+                            <div class="col-3" id="pic-2"></div>
+                            <div class="col-3" id="pic-3"></div>
+                            <div class="col-3" id="pic-4"></div>
 
-                </div>
-                <div class="carousel-item d-flex">
-                    <!-- <div class="card" style="width: 18rem;">
+                        </div>
+                        <div class="carousel-item d-flex">
+                            <!-- <div class="card" style="width: 18rem;">
                         <img src="/assets/images/Beans (bush).png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div> -->
-                    <!-- <img src="/assets/images/Beans (bush).png" class="d-block w-50" alt="..."> -->
-                    <div class="col-3" id="pic-5"></div>
-                    <div class="col-3" id="pic-6"></div>
-                    <div class="col-3" id="pic-7"></div>
-                    <div class="col-3" id="pic-8"></div>
+                            <!-- <img src="/assets/images/Beans (bush).png" class="d-block w-50" alt="..."> -->
+                            <div class="col-3" id="pic-5"></div>
+                            <div class="col-3" id="pic-6"></div>
+                            <div class="col-3" id="pic-7"></div>
+                            <div class="col-3" id="pic-8"></div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
     </header>
     <main>
         <div class="container-fluid mx-2">
             <div class="row row-col-2">
-                <sidebar class="col-3 border border-5 border-info">
-                    <div class="col-12 d-flex flex-column align-items-center">
-                        <h4 class="title text-center my-3">All Produce Goes to:</h3>
-                        <a href="https://www.sharenetfoodbank.org/" class="d-flex flex-column align-items-center">
+                <sidebar class="col-3">
+                    <div class="col-12 d-flex flex-column align-items-center shadow side-card">
+                        <h3 class="title text-center my-3">All Produce Goes to:</h3>
+                        <a href="https://www.sharenetfoodbank.org/" target="_blank"
+                            class="d-flex flex-column align-items-center mb-4">
                             <img src="./assets/images/sharenet-logo.png" alt="Sharenet Foodbank Logo">
                             <p class="address">Food Bank</p>
                             <p class="address">25994 Barber Cut-Off Rd.</p>
                             <p class="address">Kingston, WA, 98346</p>
                         </a>
                     </div>
+                    <div class="col-12 d-flex flex-column align-items-center my-3 shadow side-card">
+                        <h3 class="title text-center my-3">Thank You to Our Donors</h3>
+                        <a href="https://www.cupandmuffin.com/">
+                            <img src="./assets/images/cup-muff-logo.png" alt="Cup & Muffin Logo" class="donor-logo">
+                        </a>
+                        <a href="https://valleynurseryinc.com/">
+                            <img src="./assets/images/valley-logo.png" alt="Valley Nursery Logo"
+                                class="mb-4 donor-logo">
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex flex-column align-items-center my-3 shadow side-card">
+                        <h3 class="title text-center my-3">Thank You to Our Volunteers!!!</h3>
+                        <ul id="vol-list">
+                            <li>Our regular weekly crew (you know who you are!)</li>
+                            <li>Kingston High School Honor Society</li>
+                            <li>Washington Youth Academy</li>
+                            <li>University Congregational United Church of Christ Youth</li>
+                            <li></li>
+                        </ul>
+                    </div>
                 </sidebar>
                 <section class="col-9 border border-5 border-success">
                     <div class="row row-col-2 border border-5 border-warning">
-
+                        <div class="col-12">
+                            <h2 class="mt-4 title">Who We Are...</h2>
+                            <p>The Giving Garden is an organic farm located in Kingston, WA. We are a volunteer-driven project helping to fight food insecurity in the Kingston area by providing over a ton of organically-grown, fresh-from-the-ground produce to our local food bank every year since 2011.</p>
+                        </div>
                     </div>
                 </section>
             </div>
