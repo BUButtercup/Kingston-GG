@@ -42,7 +42,7 @@ body {
 }
 
 #header-leaf {
-    width:40px;
+    width:400px;
 }
 
 /* sidebar */
@@ -51,12 +51,14 @@ body {
     background-color: var(--white);
     /* margin: 20px 0; */
     padding: 10px;
-    border: 5px solid var(--dark);
+    border: 1px solid lightgray;
+    border-radius: 3px;
 }
 
-/* h3 {
-    color: var(--dark);
-} */
+h3 {
+    padding:10px;
+    background-color: var(--med);
+}
 
 a {
     text-decoration: none;
@@ -155,6 +157,7 @@ a:hover {
 
 /* main */
 
-.first-words {
-    font-size: 2rem;
+.sub-title {
+    font-family: 'Indie Flower', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
 }
