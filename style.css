@@ -1,7 +1,7 @@
 :root {
     --light:  #fbfae1;
     --med: #cef0b9;
-    --dark:#64a36f;
+    --dark:rgb(100, 163, 111);
     --contrast: #ffe121;
     --white: rgb(248, 248, 241);
 }
@@ -62,20 +62,21 @@ h3 {
 
 a {
     text-decoration: none;
-    color: black;
+    color:var(--dark);
 }
 
-a:hover {
-    color: slategray;
+a:hover, .main-box a:hover {
+    background-color:var(--med);
 }
 
 .address {
     margin: 0;
+    color: var(--dark);
 }
 
-.address:link, .address:visited {
+.address:link, .address:visited, .main-box a:link, .main-box a:visited  {
     text-decoration:none;
-    color: black;
+    color: var(--dark);
 }
 
 .donor-logo {
@@ -87,13 +88,15 @@ a:hover {
 #vol-list li {
     list-style: none;
     text-align:center;
-    margin: 10px;
+    background-color: transparent;
+    border: none;
+    /* margin: 10px; */
 }
 
 /* carousel */
 #pic-1{
     height: 200px;
-    background-image: url(./assets/images/Asparagus.png);
+    background-image: url(./assets/images/harvest-load.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -101,7 +104,7 @@ a:hover {
 
 #pic-2{
     height: 200px;
-    background-image: url(./assets/images/Beans.png);
+    background-image: url(./assets/images/gutter-lettuce.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -109,7 +112,7 @@ a:hover {
 
 #pic-3{
     height: 200px;
-    background-image: url(./assets/images/Beets.png);
+    background-image: url(./assets/images/tomato-harvest.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -117,7 +120,7 @@ a:hover {
 
 #pic-4 {
     height: 200px;
-    background-image: url(./assets/images/Cabbage.png);
+    background-image: url(./assets/images/potato-harvesting.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -125,7 +128,7 @@ a:hover {
 
 #pic-5{
     height: 200px;
-    background-image: url(./assets/images/Carrots.png);
+    background-image: url(./assets/images/Coffee-grounds-buckets.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -155,11 +158,51 @@ a:hover {
     background-size: cover;
 }
 
+.car-img {
+    display:flex;
+    justify-content: center;
+}
+
+.img-title {
+    width: 70%;
+    align-self: flex-end;
+    padding:5px;
+    font-size: 0.8rem;
+    text-align:center;
+    background-color: rgba(100, 163, 111, 0.8);
+    color: white;
+    font-weight:bold;
+
+}
+
 /* main */
 
 .sub-title {
     font-family: 'Indie Flower', Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
+}
+
+figcaption {
+    font-size:0.9rem;
+    font-style: italic;
+    /* padding: 10px; */
+    /* border: 1px solid black;
+    margin: 0; */
+}
+
+.fig-body {
+    padding: 10px;
+}
+
+.graph {
+    margin: 10px;
+    width: auto;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--med);
 }
 
 @media screen and (max-width: 950px){
