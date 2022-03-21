@@ -4,4 +4,4 @@ This project is the creation of a static homepage for the Giving Garden in Kings
 
 This project uses basic HTML5 and CSS.
 
-Deployed link: 
+Deployed link: https://bubuttercup.github.io/Kingston-GG/
