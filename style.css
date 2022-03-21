@@ -239,8 +239,6 @@ details[open] summary span#more {
     display: none;
 }
 
-
-
 figcaption {
     font-size:0.9rem;
     font-style: italic;
@@ -271,6 +269,15 @@ figcaption {
     background-color:var(--med);
     border: 2px solid var(--dark);
     border-radius:5px;
+}
+
+/* .custom-li::marker  */
+.custom-li {
+    /* display: flex;
+    align-items: center; */
+    list-style-image: url('/assets/images/small-leaf.png');
+    /* width:10px;
+    height: 10px; */
 }
 
 /* footer */
