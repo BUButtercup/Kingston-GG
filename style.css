@@ -215,6 +215,32 @@ a:hover, .main-box a:hover {
     font-style: italic;
 }
 
+.expandable {
+    color:var(--dark);
+}
+
+.expandable:hover {
+    background-color:var(--med);
+}
+
+#less {
+    display: none;
+}
+
+details {
+    user-select: none;
+}
+
+details[open] summary span#less {
+    display: inline;
+}
+
+details[open] summary span#more {
+    display: none;
+}
+
+
+
 figcaption {
     font-size:0.9rem;
     font-style: italic;
@@ -230,6 +256,10 @@ figcaption {
 .graph {
     margin: 10px;
     width: auto;
+}
+
+.calendar {
+    border: 5px solid var(--dark)
 }
 
 /* footer */
