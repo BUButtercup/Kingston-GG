@@ -83,6 +83,7 @@ a:hover, .main-box a:hover {
     width:150px;
     border-radius: 5px;
     margin:10px;
+    border:5px solid var(--dark);
 }
 
 #vol-list li {
@@ -136,7 +137,7 @@ a:hover, .main-box a:hover {
 
 #pic-6{
     height: 200px;
-    background-image: url(./assets/images/Corn.png);
+    background-image: url(./assets/images/herb_beds.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -144,15 +145,47 @@ a:hover, .main-box a:hover {
 
 #pic-7{
     height: 200px;
-    background-image: url(./assets/images/Cucumbers.png);
+    background-image: url(./assets/images/harvest-prep.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:bottom;
     background-size: cover;
 }
 
 #pic-8 {
     height: 200px;
-    background-image: url(./assets/images/Eggplant.png);
+    background-image: url(./assets/images/raised-beds.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#pic-9{
+    height: 200px;
+    background-image: url(./assets/images/hoop-house.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#pic-10{
+    height: 200px;
+    background-image: url(./assets/images/compost.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#pic-11{
+    height: 200px;
+    background-image: url(./assets/images/sustainable.jpeg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+}
+
+#pic-12 {
+    height: 200px;
+    background-image: url(./assets/images/bee.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -169,7 +202,7 @@ a:hover, .main-box a:hover {
     padding:5px;
     font-size: 0.8rem;
     text-align:center;
-    background-color: rgba(100, 163, 111, 0.8);
+    background-color: rgba(100, 163, 111, 0.7);
     color: white;
     font-weight:bold;
 
